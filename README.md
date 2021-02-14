@@ -6,7 +6,7 @@ So, the company has shared a data file with different input features for each pr
 The data file contains the historical data for some weeks prior to the week we are trying to predict.
 The data has 23 columns including 22 features and one target column.
 The dataset used can be found here: [Dataset Link](https://www.dropbox.com/s/mh554ii745vmu8y/backorder%20prediction.csv?dl=0).
-The code implemented in Python 3.6.9 and the following libraries are used: sklearn,numpy,pandas,imblearn,matplotlib
+The code implemented in Python 3.6.9 and the following libraries are used: sklearn,numpy,pandas,imblearn,matplotlib.
 This repo contains a single Google Colab (Python) 
 # Google Colab Notebook Sections
 ## Imports
@@ -33,7 +33,7 @@ In this project the following metrics are used for evaluation
 
 # Proccess Description
 The experiment can be divide into the following steps:
-1. Split the initial dataset in train and test datasets
+1. Split the initial dataset in train and test 
 2. Impute and scale the training dataset(fit_transform train dataset and transform the test dataset)
 3. Apply SMOTE only in training dataset
 4. Fit the estimators and predict the classes
@@ -63,8 +63,8 @@ The experiment can be divide into the following steps:
            1       0.83      0.81      0.82      1579
 
     accuracy                           0.91      6309
-    macro avg       0.88      0.88      0.88     6309
-    weighted avg    0.91      0.91      0.91     6309
+    macro avg       0.88      0.88     0.88     6309
+    weighted avg    0.91      0.91     0.91     6309
 
 ### KNearest Neighbors
               precision    recall  f1-score   support
@@ -104,6 +104,15 @@ The experiment can be divide into the following steps:
            0       0.91      0.88      0.89      4424
            1       0.65      0.72      0.69      1421
 
-    accuracy                           0.84      5845
+    accuracy                            0.84     5845
     macro avg       0.78      0.80      0.79     5845
     weighted avg    0.85      0.84      0.84     5845
+
+
+## Conclusion
+The first experiments without outliers' removal suggest a significant difference between KNN’s, RF’s and SVM’s performance, with the latter indicating the worst results.
+After outlier removal and parameter tuning, SVM indicates a remarkable improvement while Random forest and KNN have slightly better performance. However, Random Forest remains the best classifier in terms of f1-score.
+
+## Future Work
+* Evaluation of SVM and KNN with Feature selection 
+* Evaluation of the models for various ratios of SMOTE

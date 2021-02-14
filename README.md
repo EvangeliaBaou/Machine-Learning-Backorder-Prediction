@@ -7,4 +7,4 @@ The data file contains the historical data for some weeks prior to the week we a
 The data has 23 columns including 22 features and one target column.
 The dataset used can be found here: https://www.dropbox.com/s/mh554ii745vmu8y/backorder%20prediction.csv?dl=0
 The code implemented in Python 3.6.9 and the following libraries are used: sklearn,numpy,pandas,imblearn,matplotlib
-This repo contains a single Jupyter Notebook (Python) 
+This repo contains a single Google Colab (Python) 

@@ -11,4 +11,8 @@ This repo contains a single Google Colab (Python)
 # Google Colab Notebook Sections
 ## Imports
 * sklearn for Machine Learning
-* 
+* imblearn
+* numpy for Matrices
+* scipy for Stats
+* pandas for Dataframe manipulation
+* matplotlib, plotly and seaborn for Visualization

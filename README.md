@@ -44,4 +44,34 @@ The experiment can be divide into the following steps:
 9. Plot the confusion matrix for each classifier and precision-recall function after tuning
 
 # Results
-4. 
+## Before Tuning and Outlier removal
+### SVM
+
+              precision    recall  f1-score   support
+
+           0       0.78      0.98      0.87      4756
+           1       0.71      0.14      0.23      1553
+
+    accuracy                           0.77      6309
+   macro avg       0.75      0.56      0.55      6309
+weighted avg       0.76      0.77      0.71      6309
+
+### Random Forest
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94      4730
+           1       0.83      0.81      0.82      1579
+
+    accuracy                           0.91      6309
+   macro avg       0.88      0.88      0.88      6309
+weighted avg       0.91      0.91      0.91      6309
+
+### KNearest Neighbors
+              precision    recall  f1-score   support
+
+           0       0.87      0.88      0.87      4730
+           1       0.63      0.62      0.62      1579
+
+    accuracy                           0.81      6309
+   macro avg       0.75      0.75      0.75      6309
+weighted avg       0.81      0.81      0.81      6309

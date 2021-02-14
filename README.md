@@ -28,3 +28,7 @@ In this project the following metrics are used for evaluation
 * Precision
 * Recall
 * F1 score
+## Removing Ouliers and Tuning Hyparameters
+
+
+# Proccess Description

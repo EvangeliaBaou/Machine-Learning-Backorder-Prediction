@@ -5,6 +5,6 @@ There has to be a way for the company to know for which products they can face t
 So, the company has shared a data file with different input features for each product and it hopes to find a pattern inside this data which can give them some insight.
 The data file contains the historical data for some weeks prior to the week we are trying to predict.
 The data has 23 columns including 22 features and one target column.
-The dataset used can be found here: https://www.dropbox.com/h?preview=backorder+prediction.csv
+The dataset used can be found here: https://www.dropbox.com/s/mh554ii745vmu8y/backorder%20prediction.csv?dl=0
 The code implemented in Python 3.6.9 and the following libraries are used: sklearn,numpy,pandas,imblearn,matplotlib
 This repo contains a single Jupyter Notebook (Python) 

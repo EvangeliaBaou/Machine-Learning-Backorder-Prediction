@@ -32,3 +32,16 @@ In this project the following metrics are used for evaluation
 
 
 # Proccess Description
+The experiment can be divide into the following steps:
+1. Split the initial dataset in train and test datasets
+2. Impute and scale the training dataset(fit_transform train dataset and transform the test dataset)
+3. Apply SMOTE only in training dataset
+4. Fit the estimators and predict the classes
+5. Plot the confusion matrix for each classifier and precision-recall function
+6. Detect ouliers and remove them
+7. Tune the hyparameters of each classifiers
+8. Fit the estimators and predict the classes after tuning
+9. Plot the confusion matrix for each classifier and precision-recall function after tuning
+
+# Results
+4. 

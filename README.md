@@ -16,5 +16,15 @@ This repo contains a single Google Colab (Python)
 * scipy for Stats
 * pandas for Dataframe manipulation
 * matplotlib, plotly and seaborn for Visualization
-## Data Preparation
+## Data Preparation/exploration
 * Check dataset for nullity or negative values
+* Plot correlation matrix for correlation coefficients between variables
+## Classification Models
+* Support Vector Machine
+* Random Forest
+* KNearest Neighbors
+## Metrics 
+In this project the following metrics are used for evaluation
+* Precision
+* Recall
+* F1 score

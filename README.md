@@ -52,7 +52,7 @@ The experiment can be divide into the following steps:
            0       0.78      0.98      0.87      4756
            1       0.71      0.14      0.23      1553
 
-    accuracy                           0.77      6309
+    accuracy                            0.77     6309
     macro avg       0.75      0.56      0.55     6309
     weighted avg    0.76      0.77      0.71     6309
 
@@ -75,3 +75,35 @@ The experiment can be divide into the following steps:
     accuracy                           0.81      6309
     macro avg       0.75      0.75      0.75     6309
     weighted avg    0.81      0.81      0.81     6309
+
+
+## After Tuning and Outlier removal
+### SVM
+              precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91      4424
+           1       0.76      0.61      0.68      1421
+
+    accuracy                           0.86      5845
+    macro avg       0.82      0.78     0.79      5845
+    weighted avg    0.85      0.86     0.85      5845
+    
+ ## Random Forest
+               precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      4797
+           1       0.83      0.84      0.83      1512
+
+    accuracy                           0.92     6309
+    macro avg       0.89      0.89     0.89     6309
+    weighted avg    0.92      0.92     0.92     6309
+    
+   ## KNearest Neighbors
+              precision    recall  f1-score   support
+
+           0       0.91      0.88      0.89      4424
+           1       0.65      0.72      0.69      1421
+
+    accuracy                           0.84      5845
+    macro avg       0.78      0.80      0.79     5845
+    weighted avg    0.85      0.84      0.84     5845
